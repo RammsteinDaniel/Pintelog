@@ -9,8 +9,8 @@
 
 header {
   height: 50px;
-  background: #cac7c2;
-  color: #fff;
+  background: rgb(3, 137, 155, 0.8);
+  color: antiquewhite;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -49,7 +49,8 @@ header label {
 }
 
 .menu ul {
-  background: #cac7c2;
+  background: rgb(3, 137, 155 , 0);
+  color: white;
   display: flex;
   list-style: none;
 }
@@ -66,12 +67,15 @@ header label {
 }
 
 .menu a:hover {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgb(3, 137, 155);
+  color: antiquewhite;
 }
 
 .menu ul li:hover ul {
   display: block;
   position: absolute;
+  background: rgb(3, 137, 155, 0.8);
+  color: antiquewhite;
 }
 
 .busquedas{
@@ -84,6 +88,7 @@ header label {
     color: rgb(9, 9, 170);
     margin-left: 2%;
 }
+
 
 @media (max-width: 885px) {
   header label {
@@ -100,11 +105,13 @@ header label {
     width: 50%;
     transform: translateX(-100%);
     transition: all 0.3s;
+    background: rgb(3, 137, 155 , 0.7);
   }
 
   .menu ul {
     display: block;
-    background: #999;
+    background: rgb(3, 137, 155, 0.7);
+    color: antiquewhite;
   }
 
   .menu ul li ul {
@@ -123,7 +130,7 @@ header label {
   }
 
   .menu ul ul {
-    background: rgba(0, 0, 0,);
+    background: rgb(3, 137, 155 , 0);
   }
   .menu ul li:hover ul {
     display: block;
@@ -136,6 +143,10 @@ header label {
   .busquedas{
       display: flex;
       justify-content: flex-end;
+  }
+  .menu ul li:hover ul {
+    background: transparent;
+    color: antiquewhite;
   }
 
   
