@@ -30,9 +30,7 @@ input[type="text"] {
   height: 32px;
   padding-left: 15px;
 }
-input[type="submit"]{
- background: url(/images/search.png);
- background-repeat: no-repeat;
+button{
  background-color: rgb(231, 230, 230);
  width: 30px;
  height: 32px;
